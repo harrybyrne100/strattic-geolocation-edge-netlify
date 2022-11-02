@@ -7,7 +7,7 @@ If you click this button, it will create a new repo for you that looks exactly l
 
 The Geolocation info will be at the `https://your-random-app-name.netlify.app/geolocation` URL. It will be information that looks like this:
 
-~~~json
+```
 {
     geo: {
         city: "Madison",
@@ -21,7 +21,7 @@ The Geolocation info will be at the `https://your-random-app-name.netlify.app/ge
         }
     }
 }
-~~~
+```
 
 ## Reference links:
 Local dev with Netlify CLI:
