@@ -3,7 +3,9 @@ Use the Geolocation Edge Functions from Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StratticWeb/strattic-geolocation-edge-netlify&utm_source=github&utm_medium=stratticgeoloedgefunc-cs)
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+
+The Geolocation info will be at the `https://your-random-app-name.netlify.app/geolocation` URL.
 
 ### Reference links:
 Local dev with Netlify CLI:
