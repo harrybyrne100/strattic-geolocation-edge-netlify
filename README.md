@@ -1,5 +1,10 @@
 # Strattic Geolocation Edge Function
-Test
+Use the Geolocation Edge Functions from Netlify.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/StratticWeb/strattic-geolocation-edge-netlify&utm_source=github&utm_medium=stratticgeoloedgefunc-cs)
+
+(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+
 ### Reference links:
 Local dev with Netlify CLI:
 - https://docs.netlify.com/cli/get-started/#run-a-local-development-environment
