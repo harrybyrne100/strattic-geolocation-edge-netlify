@@ -5,9 +5,25 @@ Use the Geolocation Edge Functions from Netlify.
 
 If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
-The Geolocation info will be at the `https://your-random-app-name.netlify.app/geolocation` URL.
+The Geolocation info will be at the `https://your-random-app-name.netlify.app/geolocation` URL. It will be information that looks like this:
 
-### Reference links:
+~~~json
+{
+    geo: {
+        city: "Madison",
+        country: {
+            code: "US",
+            name: "United States"
+        },
+        subdivision: {
+            code: "WI",
+            name: "Wisconsin"
+        }
+    }
+}
+~~~
+
+## Reference links:
 Local dev with Netlify CLI:
 - https://docs.netlify.com/cli/get-started/#run-a-local-development-environment
 - https://cli.netlify.com/functions-dev/
