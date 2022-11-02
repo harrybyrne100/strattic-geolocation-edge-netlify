@@ -16,8 +16,8 @@ The Geolocation info will be at the `https://your-random-app-name.netlify.app/ge
             name: "United States"
         },
         subdivision: {
-            code: "WI",
-            name: "Wisconsin"
+            code: "AK",
+            name: "Alaska"
         }
     }
 }
