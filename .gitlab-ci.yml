@@ -1,0 +1,20 @@
+default:
+  image: node:14-buster
+
+before_script:
+    - npm install
+    - npm install -g netlify-cli --unsafe-perm=true
+
+deploy-prod:
+  stage: deploy
+  script:
+    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir "." --prod
+  only:
+    - main
+
+deploy-develop:
+  stage: deploy
+  script:
+    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir "."
+  only:
+    - develop
