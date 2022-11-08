@@ -23,6 +23,9 @@ The Geolocation info will be at the `https://your-random-app-name.netlify.app/ge
 }
 ```
 
+## the `mu-plugins` folder
+You can move the contents of this folder to your `mu-plugins` plugins folder, and add in the netlify app URL once you have it in the `mu-plugins/strattic-geoip-customizations/strattic-geoip-script.js` file.
+
 ## Reference links:
 Local dev with Netlify CLI:
 - https://docs.netlify.com/cli/get-started/#run-a-local-development-environment
