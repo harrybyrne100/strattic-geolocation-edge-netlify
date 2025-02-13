@@ -1,15 +1,12 @@
 export default async (request, context) => {
-  // Extract only the country code
-  const geoData = {
-    countryCode: "IE" // Example: Hardcoded, you can replace this with actual API logic
-  };
+  // Get the geolocation data from the request
+  const geo = context.geo;
 
-  return new Response(JSON.stringify(geoData), {
-    headers: {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET, OPTIONS",
-      "Access-Control-Allow-Headers": "Content-Type",
-    }
+  // Extract the country code
+  const countryCode = geo.country.code;
+
+  // Return the simplified JSON response
+  return new Response(JSON.stringify({ countryCode }), {
+    headers: { 'Content-Type': 'application/json' },
   });
 };
